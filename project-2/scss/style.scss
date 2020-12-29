@@ -215,19 +215,19 @@ h2 {
   &__graphic {
     .photo1 {
       @include restaurant-image();
-      background-image: url("/images/full-palette.jpg");
+      background-image: url("../images/full-palette.jpg");
     }
     .photo2 {
       @include restaurant-image();
-      background-image: url("/images/the-enchanted-plate.jpg");
+      background-image: url("../images/the-enchanted-plate.jpg");
     }
     .photo3 {
       @include restaurant-image();
-      background-image: url("/images/bastille.jpg");
+      background-image: url("../images/bastille.jpg");
     }
     .photo4 {
       @include restaurant-image();
-      background-image: url("/images/la\ gourmand.jpg");
+      background-image: url("../images/la\ gourmand.jpg");
     }
   }
   &__new {
@@ -380,16 +380,16 @@ h2 {
 .main__image {
   @include main-image();
   &1 {
-    background-image: url("/images/full-palette.jpg");
+    background-image: url("../images/full-palette.jpg");
   }
   &2 {
-    background-image: url("/images/the-enchanted-plate.jpg");
+    background-image: url("../images/the-enchanted-plate.jpg");
   }
   &3 {
-    background-image: url("/images/bastille.jpg");
+    background-image: url("../images/bastille.jpg");
   }
   &4 {
-    background-image: url("/images/la\ gourmand.jpg");
+    background-image: url("../images/la\ gourmand.jpg");
   }
 }
 
