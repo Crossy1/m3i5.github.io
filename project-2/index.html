@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale-=1" />
+
+    <title>OhMyFood</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" type="text/css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/5c5dbe00ab.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="primary-circle"></div>
+      <div class="secondary-circle"></div>
+      <div class="tertiary-circle"></div>
+    </div>
+
+    <div id="wrapper">
+      <header id="head">
+        <section class="logo">
+          <h2 class="w3c-hidden">nothing to show</h2>
+          <a href="#"
+            ><img
+              src="images/ohmyfood.png"
+              alt="OhMyFood Logo"
+              class="logo__img"
+          /></a>
+        </section>
+        <section>
+          <h2 class="w3c-hidden">nothing to show</h2>
+          <div class="location">
+            <i class="fas fa-map-marker-alt location__icon"></i>
+            <input
+              type="text"
+              class="location__input"
+              placeholder="Paris, Belleville"
+            />
+          </div>
+        </section>
+        <section class="book">
+          <h2 class="book__heading">Book the menu you like</h2>
+          <p class="book__paragraph">
+            Discover top-of-the-art restaurants we picked for you
+          </p>
+          <a
+            href="#restaurants"
+            class="book__btn book__btn--gradient book__btn--radius book__btn1"
+            >Explore our restaurants</a
+          >
+        </section>
+      </header>
+      <main id="main">
+        <section class="guide">
+          <h2 class="">How it works</h2>
+          <a href="#main" class="guide__box">
+            <div class="guide__step guide__step--trans">
+              <p class="guide__paragraph guide__paragraph--style">1</p>
+              <i class="fas fa-mobile-alt guide__icon"></i>
+              <p class="guide__paragraph">Choose a restaurant</p>
+            </div>
+          </a>
+          <a href="#main" class="guide__box">
+            <div class="guide__step guide__step--trans">
+              <p class="guide__paragraph guide__paragraph--style">2</p>
+              <i class="fas fa-list guide__icon"></i>
+              <p class="guide__paragraph">Create your menu</p>
+            </div></a
+          >
+
+          <a href="#main" class="guide__box">
+            <div class="guide__step guide__step--trans">
+              <p class="guide__paragraph guide__paragraph--style">3</p>
+              <i class="fas fa-store guide__icon guide__icon--trans"></i>
+              <p class="guide__paragraph">Go enjoy it at the restaurant</p>
+            </div></a
+          >
+        </section>
+
+        <section id="restaurants">
+          <h2>Restaurants</h2>
+
+          <a href="full-palette.html">
+            <div class="rest">
+              <div class="rest__graphic">
+                <div class="rest__image photo1"></div>
+                <div class="rest__new">New</div>
+              </div>
+              <div class="rest__info">
+                <div class="rest__name">
+                  <h3 class="rest__header">The Full Palette</h3>
+                  <p class="rest__paragraph">New York</p>
+                </div>
+                <div class="rest__like">
+
+                    <i class="far fa-heart rest__heart rest__heart--empty h_gone"></i>
+
+
+                    <i class="fas fa-heart rest__heart rest__heart--fill h_here"></i>
+
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="enchanted-plate.html">
+            <div class="rest">
+              <div class="rest__graphic">
+                <div class="rest__image photo2"></div>
+                <div class="rest__new">New</div>
+              </div>
+              <div class="rest__info">
+                <div class="rest__name">
+                  <h3 class="rest__header">The Enchanted Plate</h3>
+                  <p class="rest__paragraph">New York</p>
+                </div>
+                <div class="rest__like">
+                  <i class="far fa-heart rest__heart rest__heart--empty h_gone"></i>
+
+
+                  <i class="fas fa-heart rest__heart rest__heart--fill h_here"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="bastille.html">
+            <div class="rest">
+              <div class="rest__graphic">
+                <div class="rest__image photo3"></div>
+                <div class="rest__new rest__new--display"></div>
+              </div>
+              <div class="rest__info">
+                <div class="rest__name">
+                  <h3 class="rest__header">Bastille</h3>
+                  <p class="rest__paragraph">New York</p>
+                </div>
+                <div class="rest__like">
+                  <i class="far fa-heart rest__heart rest__heart--empty h_gone"></i>
+
+
+                  <i class="fas fa-heart rest__heart rest__heart--fill h_here"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="la-gourmand.html">
+            <div class="rest">
+              <div class="rest__graphic">
+                <div class="rest__image photo4"></div>
+                <div class="rest__new rest__new--display"></div>
+              </div>
+              <div class="rest__info">
+                <div class="rest__name">
+                  <h3 class="rest__header">La Gourmand</h3>
+                  <p class="rest__paragraph">New York</p>
+                </div>
+                <div class="rest__like">
+                  <i class="far fa-heart rest__heart rest__heart--empty h_gone"></i>
+
+
+                  <i class="fas fa-heart rest__heart rest__heart--fill h_here"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </section>
+      </main>
+
+      <footer id="footer" class="foot">
+        <a href="#wrapper" class="foot__link">ohmyfood</a>
+
+        <ul class="foot__list">
+          <li class="foot__listLogo">
+            <i class="fas fa-utensils"></i>
+            <a href="#footer">Suggest a restaurant</a>
+          </li>
+          <li class="foot__listLogo">
+            <i class="fas fa-hands-helping"></i>
+            <a href="#footer">Become a partner</a>
+          </li>
+          <li class="foot__listItem">
+            <a href="#footer">Legal</a>
+          </li>
+          <li class="foot__listItem">
+            <a href="mailto:contact.@ohmyfood.com">Contact</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
