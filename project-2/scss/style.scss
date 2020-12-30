@@ -677,7 +677,7 @@ h2 {
 
   .menu {
     display: grid;
-    grid-template-columns: repeat(3, 30vw);
+    grid-template-columns: 30vw 30vw 30vw;
     grid-template-rows: 5vh 50vh;
     row-gap: 2vh;
     &__name {
